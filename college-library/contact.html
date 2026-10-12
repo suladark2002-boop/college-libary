@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Campus Library</title>
+    <meta
+      name="description"
+      content="Contact the Campus Library for hours, support, reservations, and general questions."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container" aria-label="Main navigation">
+        <a class="brand" href="index.html" aria-label="Campus Library home">
+          <span class="brand-mark">C</span>
+          <span>Campus Library</span>
+        </a>
+
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="books.html">Books</a>
+          <a class="active" href="contact.html">Contact</a>
+        </div>
+
+        <a class="nav-button" href="contact.html">Ask Librarian</a>
+      </nav>
+    </header>
+
+    <main class="page-main">
+      <section class="page-hero small-hero">
+        <div class="container">
+          <p class="eyebrow">Get in touch</p>
+          <h1>We are here to help your academic journey.</h1>
+        </div>
+      </section>
+
+      <section class="container contact-wrap">
+        <div class="contact-info">
+          <div class="info-card">
+            <h2>Visit us</h2>
+            <p>North Hall, Room 204</p>
+            <p>State University Campus</p>
+            <p>123 Scholar Avenue</p>
+          </div>
+
+          <div class="info-card">
+            <h2>Connect</h2>
+            <p><strong>Email:</strong> help@campuslibrary.edu</p>
+            <p><strong>Phone:</strong> +1 (555) 234-6789</p>
+            <p><strong>Hours:</strong> Mon–Sat, 8:00 AM – 9:00 PM</p>
+          </div>
+        </div>
+
+        <form class="contact-form" action="#" method="post">
+          <h2>Send a message</h2>
+          <div class="form-group">
+            <label for="name">Full name</label>
+            <input id="name" name="name" type="text" placeholder="Your name" />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" />
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input id="subject" name="subject" type="text" placeholder="Question about resources" />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell us how we can help"></textarea>
+          </div>
+
+          <button type="submit" class="primary-btn">Send request</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2026 Campus Library</p>
+        <p>Open Mon–Sat • 8:00 AM – 9:00 PM</p>
+      </div>
+    </footer>
+  </body>
+</html>
